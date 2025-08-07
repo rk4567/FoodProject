@@ -1,0 +1,88 @@
+# From .NET Core 3.0 you can use the command: `dotnet new gitignore` to generate a customizable .gitignore file
+
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# NuGet packages
+packages/
+
+# Visual Studio temporary files and user settings
+*.suo
+*.user
+*.vspscc
+*.vssscc
+
+# Logs and other generated files
+*.log
+*.tmp
+*.bak
+
+# ReSharper and other IDE-specific files
+.idea/
+*.DotSettings
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+*.obj
+*.pdb
+*.suo
+*.user
+*.bak
+*.exe
+*.dll
+*.log
+
+# Visual Studio files
+.vs/
+*.sln.docstates
+*.vssscc
+*.vspscc
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Configuration files (adjust based on your strategy)
+appsettings.json
+appsettings.Development.json
+
+# Other common ignores
+bin/
+obj/
+node_modules/
+wwwroot/lib/
